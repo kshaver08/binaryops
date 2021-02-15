@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Binary Operators</title>
+  <link rel="stylesheet" href="style/jquery.mobile-1.4.5.min.css">
+  <script type='text/javascript' src="scripts/jquery-1.11.1.min.js"></script>
+  <script type='text/javascript' src="scripts/chromefix.js"></script>
+  <script type='text/javascript' src="scripts/jquery.mobile-1.4.5.min.js"></script>
+  <script type='text/javascript' src="scripts/binary-ops-ch3.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div data-role="page">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" class="ui-btn-active ui-state-persist">Information</a></li>
+        <li><a href="interface.html">Interface</a></li>
+      </ul>
+    </div>
+  <div data-role="content">
+    <h1>Binary Logic Operators</h1>
+
+    <p>There are certain operators one can use when dealing with logic in mathematics.
+    </p>
+
+    <h2>Operators</h2>
+    <ul>
+      <li>AND (&amp&amp): <em>returns true only if both operands are true, otherwise returns false.</em>
+      </li>
+      <li>OR (||): <em>returns true if either operand is true; if both are false, returns false.</em>
+      </li>
+      <li>NOT: <em>returns the opposite of the operand.</em>
+      </li>
+      <li>XOR: <em>returns true only if one operand is true; returns false if none or both are true.</em>
+      </li>
+    </ul>
+    <h2>Truth Table</h2>
+
+    <table>
+      <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>A AND B</th>
+        <th>A OR B</th>
+        <th>NOT A</th>
+        <th>A XOR B</th>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+ 
+    </table>
+
+
+  </div>
+</div>
+</body>
+
+</html>

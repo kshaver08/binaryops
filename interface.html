@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Binary Operators</title>
+  <link rel="stylesheet" href="style/jquery.mobile-1.4.5.min.css">
+  <script type='text/javascript' src="scripts/jquery-1.11.1.min.js"></script>
+  <script type='text/javascript' src="scripts/chromefix.js"></script>
+  <script type='text/javascript' src="scripts/jquery.mobile-1.4.5.min.js"></script>
+  <script type='text/javascript' src="scripts/binary-ops-ch3.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div data-role="page">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html">Information</a></li>
+        <li><a href="interface.html" class="ui-btn-active ui-state-persist">Interface</a></li>
+      </ul>
+    </div>
+    <div data-role="content">
+      <label for="A">A:</label>
+      <input type='number' name='A' id='A' min='0' max='1'>
+
+      <label for="B">B:</label>
+      <input type="number" name="B" id="B" min="0" max="1">
+
+      <br>
+      <button id="btn1" onclick="and();">AND</button>
+      <button id="btn2" onclick="or();">OR</button>
+      <button id="btn3" onclick="not();">NOT A</button>
+      <button id="btn4" onclick="xor();">XOR</button>
+
+      <br>
+
+      <table id="data">
+        <tr>
+          <td>Output:</td>
+          <td id='outputDisplay'>0</td>
+        </tr>
+
+      </table>
+    </div>
+    <div data-role=footer>
+      <small>
+
+	 Projectile app
+
+      </small>
+    </div>
+  </div>
+</body>
+
+</html>

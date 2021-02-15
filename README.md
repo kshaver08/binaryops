@@ -1,1 +1,1 @@
-# binaryops
+# Mobile friendly binary operations app
